@@ -1,0 +1,72 @@
+{
+    "mcpServers": {
+        "langwatch": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@langwatch/mcp-server"
+            ]
+        },
+        "toolbox": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@smithery/toolbox",
+                "--key",
+                "0d3bd2ab-1fa5-40e5-8410-6f16ae80a2da"
+            ]
+        },
+        "nia": {
+            "command": "pipx",
+            "args": [
+                "run",
+                "--no-cache",
+                "nia-mcp-server"
+            ],
+            "env": {
+                "NIA_API_KEY": "nk_Pt5PP8cyLofRv0CW7sIke9qEJxs9svM5",
+                "NIA_API_URL": "https://apigcp.trynia.ai/"
+            }
+        },
+        "parallel-mcp-search": {
+            "serverUrl": "https://search-mcp.parallel.ai/mcp",
+            "headers": {
+                "Authorization": "Bearer t36E9Wn8TRGyMRgmStvuIUY35h94poy6H6OvH-uA",
+                "Content-Type": "application/json"
+            }
+        },
+        "docs-mcp-server": {
+            "serverUrl": "http://localhost:6280/sse",
+            "disabled": false
+        },
+        "sequential-thinking": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-sequential-thinking"
+            ],
+            "env": {}
+        },
+        "context7": {
+            "args": [
+                "-y",
+                "@upstash/context7-mcp"
+            ],
+            "command": "npx",
+            "env": {}
+        },
+        "memory": {
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-memory"
+            ],
+            "command": "npx",
+            "env": {}
+        },
+        "deepwiki": {
+            "serverUrl": "https://mcp.deepwiki.com/sse"
+        }
+    }
+}

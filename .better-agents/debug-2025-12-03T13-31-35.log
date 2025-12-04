@@ -1,0 +1,10 @@
+{"level":"debug","timestamp":"2025-12-03T13:31:35.187Z","time":1764768695231,"pid":62341,"hostname":"wannabemrblanc","step":"timer-end","label":"project-structure","duration":70}
+{"level":"debug","timestamp":"2025-12-03T13:31:35.187Z","time":1764768695234,"pid":62341,"hostname":"wannabemrblanc","step":"timer-start","label":"framework-setup"}
+{"level":"debug","timestamp":"2025-12-03T13:31:35.187Z","time":1764768701938,"pid":62341,"hostname":"wannabemrblanc","step":"timer-end","label":"framework-setup","duration":6704}
+{"level":"debug","timestamp":"2025-12-03T13:31:35.187Z","time":1764768701938,"pid":62341,"hostname":"wannabemrblanc","step":"timer-start","label":"mcp-config"}
+{"level":"debug","timestamp":"2025-12-03T13:31:35.187Z","time":1764768701941,"pid":62341,"hostname":"wannabemrblanc","step":"timer-end","label":"mcp-config","duration":3}
+{"level":"debug","timestamp":"2025-12-03T13:31:35.187Z","time":1764768701941,"pid":62341,"hostname":"wannabemrblanc","step":"timer-start","label":"agents-guide"}
+{"level":"debug","timestamp":"2025-12-03T13:31:35.187Z","time":1764768701945,"pid":62341,"hostname":"wannabemrblanc","step":"timer-end","label":"agents-guide","duration":4}
+{"level":"debug","timestamp":"2025-12-03T13:31:35.187Z","time":1764768701948,"pid":62341,"hostname":"wannabemrblanc","step":"user-success","message":"Your agent project is ready!","type":"success"}
+{"level":"debug","timestamp":"2025-12-03T13:31:35.187Z","time":1764768701948,"pid":62341,"hostname":"wannabemrblanc","step":"user-info","message":"Project location: /home/ash_blanc/src/paper2code","type":"info"}
+{"level":"info","timestamp":"2025-12-03T13:31:35.187Z","time":1764768701949,"pid":62341,"hostname":"wannabemrblanc","step":"init-completed","projectPath":"/home/ash_blanc/src/paper2code","success":true}
