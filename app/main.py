@@ -5,6 +5,8 @@ This module implements the main Paper2Code agent that coordinates all subagents
 to convert scientific papers into production-ready code implementations.
 """
 
+import utils.transport
+import utils.session
 import logging
 import os
 import time

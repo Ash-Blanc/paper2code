@@ -1,5 +1,4 @@
 # Environment variables
-.env
 
 # Dependencies
 node_modules/
@@ -9,7 +8,6 @@ venv/
 .venv/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -22,3 +20,4 @@ Thumbs.db
 dist/
 build/
 *.egg-info/
+config.bat
